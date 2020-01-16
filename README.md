@@ -1,2 +1,2 @@
-# movie_searcher
+# Movie Searcher
 Movie Searcher
