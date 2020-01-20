@@ -62,7 +62,8 @@ class App extends Component {
           width: '100%',
           paddingTop: 8,
           paddingBottom: 8,
-          paddingLeft: 25
+          paddingLeft: 25,
+          overflow: hidden
         }} onChange={this.searchChangeHandler.bind(this)} placeholder="Enter the Movie Name"/>
 
         {this.state.rows}
