@@ -3,6 +3,7 @@
   display: block;
   color: #fff;
   padding-left: 20px;
+  overflow: hidden;
 }
 table{
   text-align: justify;
