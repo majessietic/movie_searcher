@@ -12,7 +12,7 @@ class App extends Component {
   }
   performSearch(searchTerm) {
     console.log('Perform Search')
-    const urlString = 'https://api.themoviedb.org/3/search/movie?api_key=1b5adf76a72a13bad99b8fc0c68cb085&query=' + searchTerm
+    const urlString = '/* paste your api here */' + searchTerm
     $.ajax({
       url: urlString,
       success: (searchResults) => {
